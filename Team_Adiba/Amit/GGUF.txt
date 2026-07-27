@@ -1,0 +1,36 @@
+
+What is GGUF?
+ans:
+GGUF (GPT-Generated Unified Format) is a model file format designed for fast local inference of large language models.
+
+It was created for the llama.cpp ecosystem and has become the standard format for running LLMs on personal computers.
+
+
+Why was GGUF created?
+Earlier, models used the GGML format, but it had limitations. GGUF was introduced to provide:
+
+Better compatibility
+Faster loading
+Support for more metadata
+Improved quantization handling
+Easier integration with modern tools
+
+Features of GGUF
+Small file sizes through quantization.
+Fast loading.
+Runs efficiently on CPUs.
+Supports GPU acceleration.
+Stores tokenizer and metadata in the same file.
+Easy to distribute as a single file.
+
+
+Here are the most common formats.
+
+Format           	                    Full Form	             Best For	                            Used By
+GGUF	       -                 GPT-Generated Unified Format	   Running LLMs locally	               Ollama, llama.cpp, LMStudio, AnythingLLM
+Safetensors	-                    Safe Tensor Format	                 Training and fine-tuning	  Hugging Face, Transformers
+PyTorch (.pt/.pth)	-            PyTorch Checkpoint	                  Training and research	              PyTorch
+TensorFlow (.ckpt/.pb/.h5)	-     TensorFlow Model	               Deep Learning	                     TensorFlow
+ONNX	                    -     Open Neural Network Exchange	       Cross-platform inference	          ONNX Runtime, TensorRT
+MLX	                               MLX Model Format	Apple           Silicon (M1/M2/M3/M4)	           Apple MLX
+TensorRT Engine (.engine)    -     NVIDIA Optimized Engine          	High-speed GPU inference	   NVIDIA GPUs

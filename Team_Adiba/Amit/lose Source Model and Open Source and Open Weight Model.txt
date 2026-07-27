@@ -1,0 +1,26 @@
+
+
+define each :
+
+Closed Source Model: An AI model whose code, weights, and training details are kept private, allowing users only to access its functionality.
+
+Open Source Model: An AI model whose code, weights, and development resources are publicly available, allowing anyone to inspect, modify, and retrain it.
+
+Open Weight Model: An AI model that releases its trained weights but not the complete training code, data, or pipeline, allowing use and fine-tuning but not full reproduction.
+
+
+
+
+
+
+Feature	             Closed Source Model	Open Source Model	Open Weight Model
+Model Weights	-      Not available	         Available	        Available
+Training Code	 -     Hidden	                 Available	        Usually hidden
+Training Dataset  -    Hidden	                Usually available     Usually hidden
+                                                    or documented	
+Architecture	  -   Sometimes partially         Fully available       Usually documented
+                     documented	
+Can Modify the Model?-	 No	                  Yes	                 You can fine-tune the 
+                                                                         weights, but not fully reproduce the model
+Can Retrain from Scratch?-  No	                  Yes	                   Usually no
+Examples       - GPT-5.5, Claude, Gemini	   OLMo, Pythia, BLOOM	   Llama 3, Mistral, Qwen
