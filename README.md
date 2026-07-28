@@ -32,6 +32,15 @@ Task (24 July 2026) :
 ```
 
 
----          
+---     
 
+Task (27th July 2026) :
+
+Download NVIDIA SkillSpector
+
+Download the provided (By sir) skills.md files.
+
+Run SkillSpector to scan for vulnerabilities.
+
+---
           
