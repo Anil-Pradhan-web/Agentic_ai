@@ -1,0 +1,40 @@
+Chatbot vs AI Agent
+
+Introduction:
+AI has changed the way humans interact with technology. Chatbots and AI Agents are two important applications of AI that help users complete tasks and solve problems. Although they look similar, their capabilities and working approaches are different.
+
+A chatbot is an AI-based system designed mainly for conversation. It responds to user queries based on predefined rules, knowledge databases, or language models. Chatbots are commonly used in customer support, virtual assistants, and information systems.
+
+An AI Agent is a more advanced AI system that can understand goals, make decisions, plan actions, and use external tools to complete tasks autonomously. Instead of only replying to users, an AI Agent can perform actions such as searching information, analyzing data, writing code, or interacting with other systems.
+
+Key Differences:
+
+1. Purpose:
+Chatbot: Mainly focuses on answering user questions and maintaining conversations.
+AI Agent: Focuses on achieving a specific goal by reasoning and taking actions.
+
+2. Decision Making:
+Chatbot: Provides responses based on available information.
+AI Agent: Can analyze situations, create plans, and make decisions.
+
+3. Autonomy:
+Chatbot: Requires user interaction for every query.
+AI Agent: Can work independently with minimum human guidance.
+
+4. Tool Usage:
+Chatbot: Usually does not interact with external tools.
+AI Agent: Can use APIs, databases, search engines, and software tools.
+
+Examples:
+Chatbots:
+- Customer support bots
+- FAQ assistants
+- Website chat assistants
+
+AI Agents:
+- Coding assistants
+- Research agents
+- Automated business workflow agents
+
+Conclusion:
+Chatbots are useful for communication-based tasks, whereas AI Agents represent the next generation of AI systems that can reason, plan, and perform complex tasks independently.
