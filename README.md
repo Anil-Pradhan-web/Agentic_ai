@@ -38,7 +38,7 @@ Task (27th July 2026) :
 
 Download NVIDIA SkillSpector
 
-Download the provided (By sir) skills.md files.
+Download the provided (By sir) skills.md files. (For now download it from OpenClaw/Hermes)
 
 Run SkillSpector to scan for vulnerabilities.
 
