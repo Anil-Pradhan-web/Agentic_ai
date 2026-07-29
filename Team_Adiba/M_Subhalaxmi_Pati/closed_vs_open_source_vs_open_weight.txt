@@ -1,0 +1,39 @@
+Difference Between Closed, Open Source, and Open Weight Models
+
+Introduction:
+AI models can be categorized based on how much information about the model is publicly available. The three major categories are closed models, open source models, and open weight models.
+Closed Models:
+Closed models are developed by companies where the model architecture, training data, and internal details are not publicly available. Users can access these models through APIs but cannot modify the model.
+
+Examples:
+- GPT models
+- Claude models
+Advantages:
+- High performance
+- Regular improvements
+- Easy access through APIs
+
+Limitations:
+- Limited customization
+- Dependency on providers
+
+Open Source Models:
+Open source models provide access to the complete source code, model architecture, and sometimes training details. Developers can study, modify, and improve these models.
+
+Advantages:
+- High flexibility
+- Community-driven improvements
+- Customization possibilities
+Examples:
+- BLOOM
+- Open source research models
+
+Open Weight Models:
+Open weight models provide access to trained model parameters (weights), but the complete training process or dataset may not be publicly available.
+
+Examples:
+- Llama models
+- Mistral models
+
+Conclusion:
+Closed models provide convenience and performance, while open source and open weight models provide more control and customization. The choice depends on requirements such as cost, privacy, and flexibility.
