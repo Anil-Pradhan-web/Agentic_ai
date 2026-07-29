@@ -1,0 +1,49 @@
+Difference Between Large Language Models (LLM) and Small Language Models (SLM)
+
+Introduction:
+Language models are AI systems that understand and generate human language. Based on their size and computational requirements, they are mainly divided into Large Language Models and Small Language Models.
+
+Large Language Models (LLMs):
+LLMs contain billions of parameters and are trained on massive datasets. They can perform multiple tasks such as text generation, coding, translation, and reasoning.
+
+Examples:
+- GPT
+- Gemini
+- Claude
+
+Advantages:
+- Better general intelligence
+- Handles complex tasks
+- Strong language understanding
+
+Limitations:
+- Requires high computing power
+- Expensive deployment
+
+Small Language Models (SLMs):
+SLMs are compact models designed to perform specific tasks efficiently. They require fewer resources and can run on local devices.
+
+Examples:
+- Phi models
+- TinyLlama
+- Gemma small versions
+
+Advantages:
+- Faster execution
+- Lower cost
+- Suitable for edge devices
+
+Comparison:
+
+LLM:
+- Large parameter size
+- High computational requirements
+- General purpose
+
+SLM:
+- Smaller size
+- Resource efficient
+- Task specific
+
+Conclusion:
+LLMs provide powerful capabilities, while SLMs offer efficiency and affordability. The choice depends on the application's requirements.

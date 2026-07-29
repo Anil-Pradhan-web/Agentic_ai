@@ -1,0 +1,66 @@
+
+Large Language Model (LLM)
+Definition
+
+A Large Language Model (LLM) is an artificial intelligence model trained on massive amounts of text data using billions or even trillions of parameters. It is designed to understand, generate, summarize, translate, and answer questions in natural language.
+
+Features
+Contains billions to trillions of parameters.
+Trained on very large datasets (books, websites, articles, code, etc.).
+Requires thousands of GPUs/TPUs and significant computational resources to train.
+Capable of performing many different tasks without task-specific training.
+Usually deployed on cloud infrastructure because of its size.
+
+Examples
+GPT-5.5
+Gemini
+Claude
+Llama 3 70B/405B
+
+
+Small Language Model (SLM)
+Definition
+
+A Small Language Model (SLM) is a language model with significantly fewer parameters than an LLM. It is designed to be lightweight, faster, and more efficient, making it suitable for edge devices, mobile applications, and local deployment.
+
+Features
+Contains millions to a few billion parameters.
+Requires much less memory and computational power.
+Can often run on laptops, desktops, or smartphones.
+Faster inference and lower cost.
+Best suited for specific tasks or domains.
+
+Examples
+Microsoft Phi-3
+Gemma 2B
+TinyLlama
+SmolLM
+
+
+Q. Can We Train an LLM?
+
+The answer is yes, but with a limitation.
+
+Training a modern LLM from scratch is not practical for most students or individual developers because it requires:
+
+A massive amount of training data
+Thousands of high-end GPUs
+Several weeks or months of training
+Very high computing costs
+
+However, we can fine-tune an existing open-weight LLM (such as Llama, Mistral, or Qwen) on our own data using much less computing power. Fine-tuning is much easier and more affordable than training a new LLM from the beginning.
+
+
+Q. Difference Between LLM and SLM
+
+         LLM                           SLM
+
+Large Language Model (LLM)	       Small Language Model (SLM)
+Very large AI model	               Smaller AI model
+Has billions of parameters	       Has millions or a few billion parameters
+Needs powerful computers to run	       Can run on laptops and mobile devices
+More accurate for complex tasks	       Best for smaller or specific tasks
+Expensive to train	               Cheaper and easier to train or fine-tune
+Slower because of its size	       Faster and more efficient
+Example: ChatGPT, Gemini, Claude       Example: Phi-3, TinyLlama, Gemma 2B
+
