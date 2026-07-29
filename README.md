@@ -1,4 +1,14 @@
-List of Tasks:
+29 July (Task)
+
+1. what are positive and negative developing agent in visual studio copilot
+
+2. what are positive and negative of OAuth Key (Dynamic & Session-Based) and API Key (Static & Permanent)
+
+3. OpenClaw Installations (Setup and onboarding (complete configuration))
+
+---
+
+List of All Tasks:
 1. Anything LLM setup
 * Multi user enable
 * Browser search
