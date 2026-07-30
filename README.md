@@ -6,8 +6,7 @@
  (both files will be provided sir)
 
 3. (optional) create a bot in telegram/discord/or any messaging app instead of testing directly in the CLI
-4. (optional) download and setup Multica , (eitherwise it is going to be used in near future)
-
+4. (Optional) Download and set up Multica (either way, it is going to be used in the near future)
 
 ---
 
