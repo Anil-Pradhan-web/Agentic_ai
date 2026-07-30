@@ -1,4 +1,4 @@
-# AI Assignment
+# Assignment
 
 ## (1) Difference Between Closed Source Model, Open Source Model, and Open Weight Model
 
