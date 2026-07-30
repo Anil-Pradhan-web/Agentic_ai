@@ -1,0 +1,24 @@
+                
+
+
+
+             Q what are positive and negative developing agent in visual studio copilot?
+
+
+            
+               >>Advantages of Using GitHub Copilot for AI Agent Development
+                 - Speeds up agent development.
+                 - Generates API integration code quickly.
+                 - Assists with prompt engineering.
+                 - Helps create debugging and logging code.
+                 - Generates unit tests automatically.
+                 - Improves developer productivity.
+                 - Reduces repetitive coding tasks.
+               
+                
+                >>Disadvantages of Using GitHub Copilot for AI Agent Development
+                   - May generate incorrect or inefficient agent logic.
+                   - Can suggest insecure implementations if not reviewed.
+                   - Requires testing and validation before deployment.
+                   - May not fully understand project-specific requirements.
+                   - Cannot replace human decision-making for system architecture or critical design choices.
