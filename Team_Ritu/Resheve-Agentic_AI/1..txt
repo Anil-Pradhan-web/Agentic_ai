@@ -1,0 +1,18 @@
+Q :: What is the difference between btw closed source and open sourse and open weight model?
+
+ANS :: Closed source
+
+	Code, architecture details, training data, and weights are all private.
+	You can only use it via API or app (e.g., GPT-4, Claude).
+
+      Open source
+
+	Full transparency: code, training methodology, and often data/weights are public.
+	Anyone can inspect, modify, and retrain from scratch.
+	True open-source LLMs are rare (e.g., OLMo, Pythia) since full training data disclosure is uncommon.
+
+      Open weight
+
+	Only the trained model weights are released, not the training code or full dataset.
+	You can download, run locally, and fine-tune it, but can't fully reproduce how it was built.
+	Most "open" LLMs today are actually this (e.g., Llama, Mistral, Qwen).
