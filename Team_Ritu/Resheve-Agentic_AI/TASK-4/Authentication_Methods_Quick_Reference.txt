@@ -1,0 +1,74 @@
+Authentication Methods (Quick Reference)
+
+=========================================================== 1. API-Based
+Authentication (Token-Based Authentication)
+===========================================================
+
+Definition: API-based authentication verifies a user or application
+using a token instead of maintaining a server-side session.
+
+Common Technologies: - JWT (JSON Web Token) - Bearer Token - API Key -
+Personal Access Token (PAT)
+
+How it Works: 1. User logs in with credentials. 2. Server verifies the
+credentials. 3. Server generates an authentication token. 4. Client
+stores the token. 5. Client sends the token with every API request. 6.
+Server validates the token.
+
+Advantages: - Stateless and scalable - Fast for APIs - Ideal for REST
+APIs and microservices - Works well with web and mobile apps
+
+Limitations: - Tokens must be stored securely. - Token revocation is
+more complex. - Refresh token management adds complexity.
+
+=========================================================== 2.
+Session-Based Authentication
+===========================================================
+
+Definition: Session-based authentication stores user session information
+on the server and identifies users using a session ID cookie.
+
+Common Technologies: - HTTP Sessions - Session Cookies - Express
+Session - PHP Sessions - Django Sessions
+
+How it Works: 1. User logs in. 2. Server creates a session. 3. Session
+ID is stored in a cookie. 4. Browser sends the cookie on each request.
+5. Server validates the session.
+
+Advantages: - Easy to implement - Sessions can be revoked immediately -
+Good for traditional web applications
+
+Limitations: - Requires server-side storage - Harder to scale - Less
+suitable for REST APIs
+
+=========================================================== 3. OAuth 2.0
+(Authorization Framework)
+===========================================================
+
+Definition: OAuth 2.0 allows users to grant third-party applications
+limited access without sharing passwords.
+
+Examples: - Login with Google - Login with GitHub - Login with
+Microsoft - Login with Facebook
+
+How it Works: 1. User selects a provider. 2. User grants permission. 3.
+Provider returns an authorization code. 4. App exchanges it for an
+access token. 5. Token is used to access resources.
+
+Advantages: - No password sharing - Secure delegated access - Standard
+for social login
+
+Limitations: - More complex implementation - Depends on external
+providers - Token lifecycle management required
+
+=========================================================== Quick
+Comparison ===========================================================
+
+Type Credential Server Session Best Use
+
+Token-Based JWT/Bearer Token No REST APIs Session-Based Session ID
+Cookie Yes Web Apps OAuth 2.0 Access Token Depends Social Login
+
+Note: Token-based and Session-based are authentication mechanisms. OAuth
+2.0 is an authorization framework and is commonly used with
+authentication.
