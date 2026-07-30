@@ -1,0 +1,32 @@
+1. OAuth (Dynamic & Session-Based):--
+OAuth is an authorization method that allows users to log in using an existing account (such as Google, GitHub, or Microsoft) without sharing their password with the application. 
+It issues temporary tokens that expire after a certain period, making it a dynamic and session-based authentication method.
+pros:-
+More secure because passwords are never shared
+Access expires automatically, reducing security risks
+Users can control and revoke permissions anytime
+Suitable for user login and third-party applications
+cons:-
+More complex to implement and configure.
+Depends on an external identity provider
+Requires token management and renewal
+Authentication may fail if the provider is unavailable.
+
+2. API Key (Static & Permanent):--
+An API key is a unique secret string issued to an application or developer.
+The application sends this key with every API request to prove its identity.
+
+Adv:-
+Easy to generate and use.
+Quick to integrate into applications
+Ideal for backend services and automation.
+No user login process is required
+
+Disadv:-
+Less secure if the key is exposed
+Static keys should be rotated manually
+Provides limited permission control.
+Anyone with the key can access the API until it is revoked.
+
+conclusion:-OAuth is the preferred choice when applications need secure, user-based authorization because it uses temporary tokens and supports permission control.
+API keys are simpler and ideal for trusted server-to-server communication or quick integrations, but they require careful storage and regular rotation to reduce security risks.
