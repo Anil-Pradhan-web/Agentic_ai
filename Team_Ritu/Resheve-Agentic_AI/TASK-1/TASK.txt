@@ -1,0 +1,5 @@
+1.Complete the backlog --> Data Privacy / Security provided by all LLM providers (OpenAI, Anthropic, Google)
+ 
+2. Write 5 problem Scenarios where ChatBot is the only solution which will be beneficial for client. Similarly write 5 Problem Scenarios where AI-Agent will be the best solution for the given problem scenario.
+ 
+3. Go to the Web Search Service Provider [Google or Brave / Duckduck go / ]Create an API and please enable Default Agent Web Search Capability in your AnythingLLM Instance running in your local machine.
