@@ -1,0 +1,33 @@
+Privacy Policies of Major LLM Providers (OpenAI, Google, Anthropic Claude)
+
+OpenAI (ChatGPT) - User data may be used to improve models (depending on
+account settings and plan). - Users can control chat history and
+training preferences. - Enterprise and Team data is not used for model
+training by default. - Conversations are protected using
+industry-standard security measures. - Users can request data deletion
+and export.
+
+Google (Gemini) - Prompts may be reviewed to improve Google’s AI
+services. - Data handling depends on the Google product and user
+settings. - Enterprise Workspace data is generally not used to train
+foundation models without permission. - Users can manage activity
+through Google Account settings. - Supports data export and deletion
+through Google services.
+
+Anthropic (Claude) - Focuses on privacy and responsible AI
+development. - Consumer conversations may be used to improve models
+unless users opt out where available. - API customer data is not used
+for training by default. - Enterprise customer data receives additional
+privacy protections. - Users can request deletion of stored data
+according to Anthropic’s policies.
+
+Quick Comparison
+
+Feature: OpenAI | Google (Gemini) | Anthropic (Claude) - Data used for
+model improvement: Yes (configurable) | Yes (depends on
+service/settings) | Yes (consumer, with options in some cases) -
+Enterprise data used for training: No (by default) | No (generally) | No
+(API/Enterprise by default) - Data deletion: Supported | Supported |
+Supported - Data export: Supported | Supported | Limited/Supported where
+applicable - Privacy controls: Yes | Yes | Yes - Encryption & security:
+Yes | Yes | Yes
