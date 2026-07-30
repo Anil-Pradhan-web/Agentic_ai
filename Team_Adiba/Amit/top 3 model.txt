@@ -1,0 +1,83 @@
+1. Hugging Face Transformers + PEFT
+
+Hugging Face has become the leading platform for working with open-source Large Language Models (LLMs) such as Llama, Mistral, Falcon, Gemma, and many others.
+
+Key Features
+1. Supports thousands of pretrained models.
+2. Fine-tuning using LoRA and QLoRA, reducing GPU memory requirements.
+3. Easy dataset integration.
+4. Compatible with PyTorch and TensorFlow.
+
+Best For
+1. Chatbots
+2. AI Assistants
+3. NLP Applications
+4. LLM Fine-tuning
+
+Pros
+1. Open source
+2. Large community support
+3. Fast experimentation
+4. Cost-effective
+
+Cons
+1. GPU is usually required for larger models.
+2. Requires basic Python programming knowledge.
+
+
+2. PyTorch
+
+PyTorch is one of the most widely used deep learning frameworks in research and industry. Companies such as Meta use it extensively for developing AI models.
+
+Key Features
+1. Dynamic computation graphs
+2. Easy debugging
+3.Excellent flexibility
+4.Large ecosystem
+
+Best For
+1. Computer Vision
+2. NLP
+3. Reinforcement Learning
+4. Custom AI Research
+
+Pros
+1. Beginner friendly
+2. Highly customizable
+3. Excellent documentation
+
+Cons
+1. Slightly slower deployment workflow compared to TensorFlow.
+
+
+
+2. Unsloth
+
+Overview:
+Unsloth is an optimization library built on top of Hugging Face and PyTorch. It focuses on making LLM fine-tuning significantly faster while reducing GPU memory usage. This allows developers to fine-tune models on consumer GPUs that might otherwise not have enough memory.
+
+Key Features
+
+1. 2–5× faster fine-tuning (depending on model and hardware)
+2. Lower VRAM usage
+3. Simple integration with Hugging Face
+4. Optimized for LoRA and QLoRA
+5. Supports many popular open-source LLMs
+
+Best For
+
+1. Students
+2. Researchers
+3. Startups
+4. Anyone with limited GPU resources
+
+Advantages
+
+1. Faster training
+2. Reduced memory requirements
+3. Easy to use
+4. Free and open source
+
+Limitations
+
+1. Primarily focused on LLM fine-tuning rather than general deep learning.
