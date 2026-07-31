@@ -1,0 +1,55 @@
+                                            Q    Chatbot vs AI Agent
+
+     
+Feature	            |                          Chatbot	                                           AI Agent
+Definition	    |         A conversational system that answers user           |         An intelligent system that understands goals, 
+                            questions and provides information.	                        plans tasks, and performs actions autonomously.
+Purpose             |     To communicate and assist users through                 |          To complete tasks and achieve user-defined goals.
+                           conversation.	
+Interaction Style   |     	Conversational and reactive.	                  |         Conversational, proactive, and goal-oriented.
+Response Type	    |        Answers questions and provides guidance.	          |    Takes actions, makes decisions, and completes workflows.
+Autonomy	    |    Low – waits for user input before responding.	          |      High – can continue working until the task is completed.
+Decision Making	    |     Follows predefined rules or responds to prompts.	  |     Uses reasoning, planning, and decision-making to solve problems.
+Task Complexity     |      Best for simple, single-step tasks.	                  |   Handles complex, multi-step tasks involving planning and execution.
+Tool Usage	    |      Limited or no use of external tools.	                  |   Uses APIs, databases, software applications, and other tools.
+Memory	            | Usually remembers only the current conversation.	          |    Can maintain context, task history, and long-term memory (if implemented).
+User Involvement    |Requires users to guide every step.	                  |    Requires minimal user intervention after the goal is given.
+Examples	   |FAQ Bot, Customer Support Bot, University Helpdesk, 	  |     Travel Assistant, Recruitment Agent, Inventory Management Agent, Complaint Resolution Agent.
+                         Banking FAQ Assistant.
+
+
+
+
+
+    >> Problem Scenarios where a Chatbot is the Best (or Only) Solution                         
+       1.University Admission Helpdesk-
+          - Answers admission-related questions.
+          - Provides course details, eligibility, and deadlines.
+       2. FAQ System-
+          - Responds to frequently asked questions.
+          - Available 24×7 for instant support.
+       3. Customer Support -
+          - Handles common customer queries.
+          - Provides troubleshooting steps and product information.
+       4. Banking Information Assistant -
+          - Explains account types, loan options, and interest rates.
+          - Does not perform transactions.
+
+
+
+    >>Problem Scenarios where an AI Agent is the Best Solution
+      1.Travel Assistant -
+        - Plans complete trips.
+        - Books flights, hotels, and creates itineraries.
+      2.Complaint Resolution Assistant
+        - Receives complaints.
+        - Checks customer history.
+        - Assigns support staff.
+        - Tracks resolution until completion.
+      3. Recruitment Agent Before Interviews
+        - Screens resumes.
+        - Schedules interviews.
+        - Evaluates candidate responses.
+      4.Inventory Management System
+        - Monitors stock levels.
+        - Predicts demand.

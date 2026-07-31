@@ -1,0 +1,53 @@
+**API Keys** and **OAuth Tokens** (often loosely referred to as OAuth keys) are two fundamentally different ways to secure and control access to APIs.
+
+The primary distinction lies in their purpose: **API Keys identify the calling application/project**, while **OAuth Tokens authorize a specific user or service with temporary, granular permissions**.
+
+---
+
+## At a Glance Comparison
+
+| Feature | API Key | OAuth Token (OAuth 2.0) |
+| --- | --- | --- |
+| **Primary Purpose** | **App Identification** & billing/rate-limiting | **User Delegation** & fine-grained authorization |
+| **Authentication Target** | Identifies *who is making the call* (the app/project) | Authorizes *on whose behalf* the call is made (user/service) |
+| **Lifespan** | **Long-lived** / Static (valid until manually rotated/revoked) | **Short-lived** (typically 15–60 mins; refreshed via refresh token) |
+| **Granularity (Scopes)** | All-or-nothing access to the API project | Fine-grained scopes (e.g., `read:profile`, `write:tweets`) |
+| **User Consent** | None (generated directly in developer dashboards) | Interactive consent screen (e.g., "Allow app to access Google Drive?") |
+| **Structure** | Opaque static string (e.g., `AIzaSyD...`) | Structured token, usually a **JWT** (Header + Payload + Signature) |
+| **Revocation Impact** | Disables the entire application's integration | Revokes access for a *single user/session* without affecting others |
+| **Complexity** | Very simple (single HTTP header or query parameter) | Moderate/High (requires multi-step token exchange flow) |
+
+---
+
+## Key Differences Explained
+
+### 1. Identification vs. Delegation
+
+* **API Key:** Works like a project's library card. It tells the server, *"This request is coming from App XYZ."* It tracks usage, enforces rate limits, and handles monetization/billing.
+* **OAuth Token:** Works like a hotel key card. It tells the server, *"App XYZ is allowed by User Rohit to access Room 302 for the next hour."* It provides delegated access without exposing user passwords.
+
+### 2. Lifespan & Security Risk
+
+* **API Key:** Because it is static and long-lived, if an API key leaks into a public Git repository or client-side JavaScript code, attackers gain unrestricted access indefinitely until someone manually rotates or revokes it.
+* **OAuth Token:** Access tokens automatically expire in minutes or hours. Even if intercepted, the blast radius is minimal and time-bound. Long-term access is managed securely via server-side refresh tokens.
+
+### 3. Scope & Permissions
+
+* **API Key:** Usually gives full administrative access or broad read/write access to whatever endpoints the API key has permission for.
+* **OAuth Token:** Supports **Scopes**. A single application can hold multiple tokens with different access levels—for instance, one user grants read-only access while another grants full write access.
+
+---
+
+## When to Use Which?
+
+### Use API Keys when:
+
+1. **Server-to-Server Internal Services:** Communication between trusted backend microservices inside your own infrastructure.
+2. **Public Data & SDKs:** Consuming public APIs where no user data is involved (e.g., Weather API, Google Maps SDK, Currency Conversion API).
+3. **Rapid Prototyping:** Hackathons or simple scripts where setting up an OAuth server adds unnecessary overhead.
+
+### Use OAuth Tokens when:
+
+1. **Third-Party App Integrations:** Allowing an app to access data stored on another platform (e.g., "Sign in with Google", connecting GitHub to VS Code).
+2. **User-Centric Data:** Applications reading/writing personal data (e.g., reading user emails, modifying calendar events).
+3. **Compliance & Auditing:** Systems requiring strict regulatory compliance (GDPR, SOC2) where access must be time-bound, scoped, and tied to specific user consent.
