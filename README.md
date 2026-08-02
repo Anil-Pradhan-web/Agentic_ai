@@ -1,3 +1,15 @@
+30 July (Task)
+
+1. perform session 1 and session 2
+2. OpenClaw Multi-Agent Team Creation (perform tasks till 1-9)
+
+ (both files will be provided sir)
+
+3. (optional) create a bot in telegram/discord/or any messaging app instead of testing directly in the CLI
+4. (Optional) Download and set up Multica (either way, it is going to be used in the near future)
+
+---
+
 29 July (Task)
 
 1. what are positive and negative developing agent in visual studio copilot
