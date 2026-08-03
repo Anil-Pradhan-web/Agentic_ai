@@ -1,0 +1,20 @@
+# OpenClaw — sample agent configuration
+# Declares which tools an agent may use (least-privilege by default).
+# Mirrors the pattern used by ../../.github/agents/research.agent.md in this repo.
+
+name: assistant
+description: General-purpose assistant agent scoped to safe, read-mostly tools.
+model: ${MODEL_NAME}
+
+tools:
+  - browser        # web search / page reads — read-only
+  # - terminal      # disabled by default: enable only for trusted, sandboxed agents
+  # - edit          # disabled by default: enable only when file writes are required
+
+limits:
+  max_steps: 25
+  max_runtime_seconds: 300
+
+logging:
+  level: ${LOG_LEVEL}
+  path: ./data/logs/assistant.log

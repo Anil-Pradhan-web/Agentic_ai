@@ -22,3 +22,16 @@ Combined from **SohamGhosh** (Tasks 1–3) and **MandeepRay** (Tasks 4–5).
 | 4. Top 3 Model Training & Tuning Tools | `research_papers/top_3_model_training_tuning_tools.md` + `research_papers/koustav_ans.md` (sec 2) | SohamGhosh / KoustavBera |
 | 5. LLM vs SLM | `research_papers/llm_vs_slm.md` + `research_papers/koustav_ans.md` (sec 4) | SohamGhosh / KoustavBera |
 | 6. Model Formats & GGUF | `research_papers/model_formats_and_gguf.md` + `research_papers/koustav_ans.md` (sec 5) | SohamGhosh / KoustavBera |
+
+## Additional Topics (consolidated)
+
+| Topic | Folder |
+|---|---|
+| OAuth vs API Key / Auth methods | `topics/01_auth/` |
+| VS Code Agent Review | `topics/02_copilot_agents/` |
+| OpenClaw setup & onboarding (incl. Fedora) | `topics/03_openclaw_setup/` |
+| Telegram + OpenRouter + OpenClaw end-to-end | `topics/04_telegram_openrouter/` |
+| Local LLMs / Ollama (OpenAI-compatible) | `topics/05_ollama_local_llm/` |
+| Research agent config (GitHub Skills format) | `topics/06_research_agent/` |
+| Hermes / ClawHub skills (ascii-art) | `topics/07_skills/ascii-art/` |
+| Sandbox / VM isolation | `topics/08_sandbox/` |
