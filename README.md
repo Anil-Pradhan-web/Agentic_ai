@@ -1,3 +1,10 @@
+3 August (Task)
+
+1. Cloning and installation of Multica
+2. (optional) Experiment with OmniRoute
+
+---
+
 30 July (Task)
 
 1. perform session 1 and session 2
