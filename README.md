@@ -1,3 +1,14 @@
+5 August (Task)
+
+1. Compulsary installation of Multica (through Docker is preferrable)
+2. *(this will implemented by respective team leaders only) Create workspace for your teams 
+3. connect your multica with slack
+4. experiment with opencode (best for runtime)
+5. experiment with Microsoft recorder skills
+6. *(Advance Task) Connect AnythingLLM's RAG database to Multica/OpenClaw by exposing it as an MCP server, so Multica agents can retrieve and use documents                          stored in AnythingLLM during execution
+   
+---
+
 3 August (Task)
 
 1. Cloning and installation of Multica
