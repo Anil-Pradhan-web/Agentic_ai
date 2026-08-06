@@ -1,3 +1,13 @@
+6 August (Task)
+
+1. What is the difference between API and MCP (also write the drawback of API over MCP)
+2. (try this https://mcpservers.org/ , https://mcpmarket.com/submit)
+
+***  first attempt yesterday's Task 6 
+      then create a weather predictor for Bhubneswar
+      
+---
+
 5 August (Task)
 
 1. Compulsary installation of Multica (through Docker is preferrable)
