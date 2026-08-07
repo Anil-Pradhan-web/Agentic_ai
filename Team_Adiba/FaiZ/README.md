@@ -1,7 +1,5 @@
 # Personal AI Workspace Setup
 
-Hello there Champ!!
-
 A local AI development environment integrating **AnythingLLM**, **MultiCA**, **OpenCode**, and **OpenClaw** across Windows and WSL Ubuntu.
 
 The goal of this setup is to create a powerful AI-assisted development workflow with local tools, agent orchestration, knowledge management, and coding automation.
