@@ -2,7 +2,7 @@
 ASSIGNMENT NOTES: CLOSED VS OPEN SOURCE VS OPEN WEIGHT MODELS
 Name: Ayush
 Course: Agentic AI Workshop
-Date: August 2026
+Date: 24 July 2026
 ================================================================================
 
 1. WHAT'S THE DIFFERENCE?

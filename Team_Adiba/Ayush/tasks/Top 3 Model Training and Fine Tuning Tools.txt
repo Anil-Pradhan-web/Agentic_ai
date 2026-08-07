@@ -2,7 +2,7 @@
 ASSIGNMENT NOTES: TOP 3 MODEL TRAINING & FINE-TUNING TOOLS
 Name: Ayush
 Course: Agentic AI Workshop
-Date: August 2026
+Date: 24 July 2026
 ================================================================================
 
 1. INTRODUCTION

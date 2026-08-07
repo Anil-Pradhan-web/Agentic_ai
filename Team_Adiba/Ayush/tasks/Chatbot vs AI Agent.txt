@@ -2,7 +2,7 @@
 ASSIGNMENT NOTES: CHATBOT VS AI AGENT
 Name: Ayush
 Course: Agentic AI Workshop
-Date: August 2026
+Date: 23 July 2026
 ================================================================================
 
 1. QUICK OVERVIEW

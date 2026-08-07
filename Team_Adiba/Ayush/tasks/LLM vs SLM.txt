@@ -2,7 +2,7 @@
 ASSIGNMENT NOTES: LLM VS SLM (LARGE VS SMALL LANGUAGE MODELS)
 Name: Ayush
 Course: Agentic AI Workshop
-Date: August 2026
+Date: 24 July 2026
 ================================================================================
 
 1. QUICK DEFINITIONS
