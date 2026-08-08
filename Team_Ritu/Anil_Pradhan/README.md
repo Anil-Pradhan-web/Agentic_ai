@@ -8,27 +8,29 @@ Welcome to my personal progress tracker and repository for the **Agentic AI Cour
 
 | Category | Total Tasks | Completed | Status |
 | :--- | :---: | :---: | :---: |
-| 📄 **GitHub Research Papers** | 6 | 6 | 🟢 **100% Completed** |
+| 📄 **GitHub Research Papers** | 7 | 7 | 🟢 **100% Completed** |
 | 🛠️ **Practical / Hands-On Tasks** | 6 | 1 | 🟡 **16% (AnythingLLM Completed)** |
 
 ---
 
-## 📄 1. GitHub Research Papers (`Tasks/`)
+## 📄 1. GitHub Research Papers (`Tasks_Github/`)
 
-All 6 research papers have been thoroughly researched, written, and saved under the [`Tasks/`](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks/) directory:
+All 7 research papers have been thoroughly researched, written, and saved under the [`Tasks_Github/`](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks_Github/) directory:
 
-1. ✅ **[Task 1: Chatbot vs. AI Agent](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks/1-chatbot_Vs_Aiagents.md)**
+1. ✅ **[Task 1: Chatbot vs. AI Agent](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks_Github/1-chatbot_Vs_Aiagents.md)**
    - *Topics:* Evolution, architectural differences, reactive vs. proactive execution, decision loops, and real-world use cases.
-2. ✅ **[Task 2: Privacy Policies of Major LLM Providers](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks/2-privacy_policies_of_llms.md)**
+2. ✅ **[Task 2: Privacy Policies of Major LLM Providers](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks_Github/2-privacy_policies_of_llms.md)**
    - *Topics:* Data retention, telemetry, opt-out policies, and enterprise security across OpenAI, Google Gemini, and Anthropic Claude.
-3. ✅ **[Task 3: Closed Source vs. Open Source vs. Open Weight Models](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks/3-closed_open_source_open_weight_models.md)**
+3. ✅ **[Task 3: Closed Source vs. Open Source vs. Open Weight Models](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks_Github/3-closed_open_source_open_weight_models.md)**
    - *Topics:* OSI Open Source AI Definition (**OSAID 1.0**), EU AI Act regulatory impact, "Openwashing" debate, and intelligence index benchmarks.
-4. ✅ **[Task 4: Top 3 Tools for Model Training & Fine-Tuning](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks/4-model_training_and_tuning_tools.md)**
+4. ✅ **[Task 4: Top 3 Tools for Model Training & Fine-Tuning](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks_Github/4-model_training_and_tuning_tools.md)**
    - *Topics:* **Unsloth** (Triton CUDA kernels & 30-90% VRAM cuts), **Hugging Face TRL/AutoTrain**, **LLaMA-Factory**, and QLoRA NF4 mathematical breakdown.
-5. ✅ **[Task 5: LLM vs. SLM Comparative Analysis](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks/5-llm_vs_slm.md)**
+5. ✅ **[Task 5: LLM vs. SLM Comparative Analysis](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks_Github/5-llm_vs_slm.md)**
    - *Topics:* Parameter scaling boundaries (>70B vs <14B SLMs), synthetic data curation (Phi-3.5/Phi-4), knowledge distillation, VRAM tables, and edge NPU execution.
-6. ✅ **[Task 6: Model File Formats & Deep-Dive into GGUF](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks/6-model_formats_and_gguf.md)**
+6. ✅ **[Task 6: Model File Formats & Deep-Dive into GGUF](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks_Github/6-model_formats_and_gguf.md)**
    - *Topics:* PyTorch (`.pt` pickle security), SafeTensors, ONNX, and GGUF v3. Explains K-quants vs. I-quants (`IQ3_M`), Importance Matrix (`imatrix`), and hybrid CPU+GPU layer offloading.
+7. ✅ **[Task 7: API vs. MCP (Model Context Protocol) & Drawbacks](file:///c:/Users/ANIL/Desktop/Agentic_ai/Team_Ritu/Anil_Pradhan/Tasks_Github/7-api_vs_mcp_and_drawbacks.md)**
+   - *Topics:* Architectural comparison between traditional REST APIs and MCP (JSON-RPC 2.0 Host-Client-Server), and detailed drawbacks of APIs in AI (N+1 glue code explosion, context window bloat, static vs dynamic discovery, lack of HITL safety guardrails).
 
 ---
 
@@ -90,14 +92,15 @@ Below is the roadmap and real-time completion status for all hands-on environmen
 
 ```
 Team_Ritu/Anil_Pradhan/
-├── README.md                                  # Workspace overview & task tracker (This File)
-└── Tasks/                                     # Research Papers & Documentation
+├── README.md                                  # Workspace overview & task tracker
+└── Tasks_Github/                              # Research Papers & Documentation
     ├── 1-chatbot_Vs_Aiagents.md               # Task 1 Paper
     ├── 2-privacy_policies_of_llms.md          # Task 2 Paper
     ├── 3-closed_open_source_open_weight_models.md # Task 3 Paper
     ├── 4-model_training_and_tuning_tools.md   # Task 4 Paper
     ├── 5-llm_vs_slm.md                        # Task 5 Paper
-    └── 6-model_formats_and_gguf.md            # Task 6 Paper
+    ├── 6-model_formats_and_gguf.md            # Task 6 Paper
+    └── 7-api_vs_mcp_and_drawbacks.md          # Task 7 Paper
 ```
 
 ---
